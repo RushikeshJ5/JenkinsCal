@@ -47,31 +47,12 @@ public class Calculator {
   int x = 5;
   int y = 4;
   m1.init(x, y);
-  //do{
-   //System.out.println("Enter Your Choice\n1.Addition 2.Multiplication 3.Power 0.Exit");
-   //n = s.nextInt();
-   //switch(n)
-   //{
-   //case 0:
-   // n=0;
-   // break;
-   //case 1:
     m1.add();
     m1.display();
-   // break;
-   //case 2:
     m1.multiply();
     m1.display();
-   // break;
-   //case 3:
     m1.power();
     m1.display();
-   // break;
-    
-   //default:
-   // System.out.println("Invalid Input");
-   //}
-  //}while(n!=0);
-  
+
  }
 }
